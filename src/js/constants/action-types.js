@@ -1,0 +1,6 @@
+export const LOGIN_SUCCESS = 'LOGGED_SUCCESS';
+export const LOGIN_FAILED = 'LOGGIN_FAILED';
+export const WRONG_PASSWORD = 'WRONG_PASSWORD';
+export const SEARCH = 'SEARCH';
+export const ADD_TO_FAVOURITE = 'ADD_TO_FAVOURITE';
+export const ADD_TO_WATCHLIST = 'ADD_TO_WATCHLIST';

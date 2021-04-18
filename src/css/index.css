@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.padding-margin-20{
+  margin: 20px;
+}
+
+.poster-border {
+  border: 0px;
+  padding: 2px !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+.poster-dimension{
+  width: 217px;
+  height: 434px;
+}
+
+.home-poster-dimension{
+  width: 100%;
+}
+
+.last-poster-item{
+  align-items: center;
+  justify-content: center;
+  border: 0px;
+  width: auto !important;
+}
+
+.gridList{
+  flexWrap: 'nowrap';
+  transform: 'translateZ(0)'
+}
+
+.gridlistroot{
+  display: 'flex';
+    flexWrap: 'wrap';
+    justifyContent: 'space-around';
+    overflow: 'hidden'
+}
+
+.MuiGridList-root {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+  list-style: none;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 0px !important;
+}
+
+.row-header{
+  font-family: SF Pro Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.page-border{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+
+.brandname{
+  width: 100px;
+  height: auto;
+  left: 48px;
+  top: 9px;
+  font-family: GraphiqueW01-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 54px;
+  display: flex;
+  align-items: flex-end;
+  color: #ED2517 !important;
+}
+
+.navbar-brand{
+  width: auto !important;
+}
+
+.ui-datepicker-calendar {
+  display: none;
+}
+
+.padding-left-10{
+  padding-left: 10px;
+}
+
+.movie_details_style{
+  text-align: left;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: rgb(228, 226, 224);
+  margin-top: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
