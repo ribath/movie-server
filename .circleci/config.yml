@@ -1,0 +1,8 @@
+version: 2.1
+jobs:
+    build:
+        steps:
+            - checkout
+            - deploy:
+                name: digital-ocean
+                command: ssh -o "StrictHostKeyChecking no" cloudsigma@185.12.5.135 "cd repos/movie-server/; git pull; npm install; npm run build"
